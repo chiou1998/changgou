@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45af2ec2-7522-4b38-aa5a-0df9e97284d8" name="变更" comment="changgou" />
+    <list default="true" id="45af2ec2-7522-4b38-aa5a-0df9e97284d8" name="变更" comment="changgou">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/controller/SkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/service/SkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/service/SkuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/controller/SkuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/controller/SkuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/SkuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/SkuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/impl/SkuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/impl/SkuServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +33,7 @@
     <setting file="jar://$PROJECT_DIR$/../../develop/apache-maven-3.3.9/repository/org/mybatis/mybatis-spring/2.0.5/mybatis-spring-2.0.5.jar!/org/mybatis/spring/SqlSessionTemplate.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../develop/apache-maven-3.3.9/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/changgou-parent/changgou-core/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/src/main/java/com/changgou/search/service/impl/SkuServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -209,7 +218,7 @@
       <workItem from="1669993069885" duration="5544000" />
       <workItem from="1669998663607" duration="566000" />
       <workItem from="1670035165837" duration="1022000" />
-      <workItem from="1670037016835" duration="7777000" />
+      <workItem from="1670037016835" duration="10559000" />
     </task>
     <task id="LOCAL-00001" summary="changgou">
       <created>1670042846882</created>
@@ -232,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670045355694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changgou">
+      <created>1670045524941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670045524941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

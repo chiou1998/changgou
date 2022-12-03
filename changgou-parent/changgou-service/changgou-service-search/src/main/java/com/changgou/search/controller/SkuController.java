@@ -6,6 +6,7 @@ import com.changgou.search.service.SkuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.Map;
 
 
@@ -22,6 +23,9 @@ public class SkuController {
     }
     @PostMapping
     public Map<String,Object> search(@RequestBody(required = false) Map<String,String> searchMap){
-
+        if (searchMap==null) {
+            searchMap = new HashMap<>();
+        }
+        return skuService.search(searchMap);
     }
 }
