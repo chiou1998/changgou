@@ -4,9 +4,9 @@ import com.changgou.entity.Result;
 import com.changgou.entity.StatusCode;
 import com.changgou.search.service.SkuService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 
 @RestController
@@ -19,5 +19,9 @@ public class SkuController {
     public Result importData(){
         skuService.importSku();
         return new Result(true, StatusCode.OK,"导入成功");
+    }
+    @PostMapping
+    public Map<String,Object> search(@RequestBody(required = false) Map<String,String> searchMap){
+
     }
 }
