@@ -12,12 +12,15 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
 import java.util.*;
 
 @Service
@@ -58,13 +61,36 @@ public class SkuServiceImpl implements SkuService {
         nativeSearchQueryBuilder.withQuery(QueryBuilders.matchQuery("name",keywords));//匹配查询 从name上搜索内容为指定关键字的数据
 
         BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+
         String category = searchMap.get("category");
         if (!StringUtils.isEmpty(category)) {
             boolQueryBuilder.must(QueryBuilders.termQuery("categoryName",category));
         }
-
-
+        String brand = searchMap.get("brand");
+        if (!StringUtils.isEmpty(brand)) {
+            boolQueryBuilder.must(QueryBuilders.termQuery("brandName",brand));
+        }
+        for (Map.Entry<String, String> stringStringEntry : searchMap.entrySet()) {
+            String key = stringStringEntry.getKey();
+            if (key.startsWith("spec_")) {
+                String value = stringStringEntry.getValue();
+                boolQueryBuilder.filter(QueryBuilders.termQuery("specMap."+key.substring(5)+".keyword", value));
+            }
+        }
+        String price = searchMap.get("price");
+        if (!StringUtils.isEmpty(price)) {
+            String[] split = price.split("-");
+            if (split[1].equals("*")) {
+                boolQueryBuilder.must(QueryBuilders.rangeQuery("price").gte(split[0]));
+            }
+            boolQueryBuilder.must(QueryBuilders.rangeQuery("price").from(split[0],true).to(split[1],true));
+        }
         nativeSearchQueryBuilder.withFilter(boolQueryBuilder);
+
+        String pageNumString = searchMap.get("pageNum");
+        Integer pageNum = Integer.parseInt(pageNumString);
+        Pageable pageable = PageRequest.of(pageNum-1,40);
+        nativeSearchQueryBuilder.withPageable(pageable);
 
 
         SearchQuery query = nativeSearchQueryBuilder.build();
