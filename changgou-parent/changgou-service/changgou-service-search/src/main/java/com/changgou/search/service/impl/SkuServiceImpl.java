@@ -6,11 +6,16 @@ import com.changgou.entity.Result;
 import com.changgou.goods.feign.SkuFeign;
 import com.changgou.goods.pojo.Sku;
 import com.changgou.search.dao.SkuEsMapper;
+import com.changgou.search.service.SearchResultMapperImpl;
 import com.changgou.search.service.SkuService;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
+import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
+import org.elasticsearch.search.sort.SortBuilder;
+import org.elasticsearch.search.sort.SortBuilders;
+import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -57,6 +62,10 @@ public class SkuServiceImpl implements SkuService {
         nativeSearchQueryBuilder.addAggregation(AggregationBuilders.terms("skuBrandgroup").field("brandName").size(10000));
         nativeSearchQueryBuilder.addAggregation(AggregationBuilders.terms("skuSpecgroup").field("spec.keyword").size(10000));
 
+        //高亮的字段和前缀和后缀
+        nativeSearchQueryBuilder.withHighlightBuilder(new HighlightBuilder().preTags("<em style=\"color:red\">").postTags("</em>"));
+        nativeSearchQueryBuilder.withHighlightFields(new HighlightBuilder.Field("name"));
+
         //添加查询方法
         nativeSearchQueryBuilder.withQuery(QueryBuilders.matchQuery("name",keywords));//匹配查询 从name上搜索内容为指定关键字的数据
 
@@ -88,13 +97,22 @@ public class SkuServiceImpl implements SkuService {
         nativeSearchQueryBuilder.withFilter(boolQueryBuilder);
 
         String pageNumString = searchMap.get("pageNum");
+        if (StringUtils.isEmpty(pageNumString)) {
+            pageNumString="1";
+        }
         Integer pageNum = Integer.parseInt(pageNumString);
-        Pageable pageable = PageRequest.of(pageNum-1,40);
+        Integer pageSize = 10;
+        Pageable pageable = PageRequest.of(pageNum-1,pageSize);
         nativeSearchQueryBuilder.withPageable(pageable);
 
+        String sortField = searchMap.get("sortField");
+        String sortRule = searchMap.get("sortRule");
+        if (!StringUtils.isEmpty(sortField) && !StringUtils.isEmpty(sortRule)) {
+            nativeSearchQueryBuilder.withSort(SortBuilders.fieldSort(sortField).order(SortOrder.valueOf(sortRule)));
+        }
 
         SearchQuery query = nativeSearchQueryBuilder.build();
-        AggregatedPage<SkuInfo> skuInfos = elasticsearchTemplate.queryForPage(query, SkuInfo.class);
+        AggregatedPage<SkuInfo> skuInfos = elasticsearchTemplate.queryForPage(query, SkuInfo.class,new SearchResultMapperImpl());
         //获取结果（总记录数，总页数，当前页的记录等数据）
         List<SkuInfo> content = skuInfos.getContent();
         long totalElements = skuInfos.getTotalElements();
@@ -116,7 +134,6 @@ public class SkuServiceImpl implements SkuService {
         resultMap.put("specMap",specMap);
         return resultMap;
     }
-
     private Map<String, Set<String>> getStringSetMap(StringTerms stringTermsSpec) {
         Map<String, Set<String>> specMap = new HashMap<>();
         if (stringTermsSpec!=null) {
