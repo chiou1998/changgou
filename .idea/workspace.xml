@@ -7,34 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45af2ec2-7522-4b38-aa5a-0df9e97284d8" name="变更" comment="changgou">
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-order-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-pay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-nacos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-nacos/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/feign/SkuFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/feign/SkuFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/feign/SkuFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/feign/SkuFeign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SkuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/SkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/SkuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SkuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SkuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SkuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/SkuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/SkuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SkuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SkuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SkuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SkuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/swagger/swagger.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-template/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-template/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="45af2ec2-7522-4b38-aa5a-0df9e97284d8" name="变更" comment="changgou" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +249,7 @@
       <workItem from="1670376491341" duration="398000" />
       <workItem from="1670376908127" duration="67543000" />
       <workItem from="1670514611562" duration="8984000" />
-      <workItem from="1670560685913" duration="31298000" />
+      <workItem from="1670560685913" duration="31694000" />
     </task>
     <task id="LOCAL-00001" summary="changgou">
       <created>1670042846882</created>
@@ -341,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670376751329</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changgou">
+      <created>1670659035880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670659035880</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
