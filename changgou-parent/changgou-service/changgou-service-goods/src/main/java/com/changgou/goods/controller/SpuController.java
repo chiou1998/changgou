@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
  *****/
 
 @RestController
-@RequestMapping("/spu")
+@RequestMapping("/spu1")
 @CrossOrigin
 public class SpuController extends AbstractCoreController<Spu>{
 

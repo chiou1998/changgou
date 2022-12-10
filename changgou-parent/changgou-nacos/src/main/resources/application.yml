@@ -5,4 +5,4 @@ spring:
     name: nacos-server
   cloud:
     nacos:
-      server-addr: 192.168.2.13:8848
+      server-addr: 192.168.254.1:8848

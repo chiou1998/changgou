@@ -13,4 +13,6 @@ import java.util.List;
 public interface SkuService extends CoreService<Sku> {
 
     List<Sku> findByStatus(String status);
+
+    Integer decCount(Long id, Integer num);
 }

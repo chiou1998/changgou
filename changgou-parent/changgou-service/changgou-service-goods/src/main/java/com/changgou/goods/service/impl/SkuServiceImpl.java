@@ -32,4 +32,10 @@ public class SkuServiceImpl extends CoreServiceImpl<Sku> implements SkuService {
         Condition.setStatus(status);
         return skuMapper.select(Condition);
     }
+
+    @Override
+    public Integer decCount(Long id, Integer num) {
+
+        return skuMapper.decCount(id,num);
+    }
 }

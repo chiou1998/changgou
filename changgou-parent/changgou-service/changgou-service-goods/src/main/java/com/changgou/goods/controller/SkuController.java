@@ -17,7 +17,7 @@ import java.util.List;
  *****/
 
 @RestController
-@RequestMapping("/sku")
+@RequestMapping("/sku1")
 @CrossOrigin
 public class SkuController extends AbstractCoreController<Sku>{
 
@@ -33,4 +33,14 @@ public class SkuController extends AbstractCoreController<Sku>{
         List<Sku> skuList = skuService.findByStatus(status);
         return new Result<List<Sku>>(true, StatusCode.OK,"获取成功",skuList);
     }
+    @GetMapping("/decCount")
+    public Result decCount(@RequestParam(name="id") Long id, @RequestParam(name="num") Integer num){
+        Integer count = skuService.decCount(id,num);
+        if (count>0) {
+            return new Result(true,StatusCode.OK,"修改成功");
+        }else {
+            return new Result(false,StatusCode.OK,"修改失败");
+        }
+    }
+
 }

@@ -28,5 +28,10 @@
             <artifactId>changgou-core-controller</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--oauth依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
     </dependencies>
 </project>
