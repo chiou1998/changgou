@@ -1,0 +1,15 @@
+server:
+  port: 18088
+feign:
+  hystrix:
+    enabled: true
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: search-web
+  cloud:
+    nacos:
+      server-addr: 192.168.2.13:8848
+ # main:
+   # allow-bean-definition-overriding: true

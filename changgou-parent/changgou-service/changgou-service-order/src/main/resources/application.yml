@@ -1,0 +1,45 @@
+server:
+  port: 18090
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/changgou?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123
+  redis:
+    host: 192.168.211.132
+    port: 6379
+  rabbitmq:
+    host: 192.168.211.132
+    port: 5672
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      server-addr: 192.168.254.1:8848
+feign:
+  hystrix:
+    enabled: true
+ribbon:
+  ReadTimeout: 5000
+  eager-load:
+    enabled: true # 开启饥饿加载 系统启动 则初始化。
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000 # 5
+          strategy: SEMAPHORE
+mq:
+  pay:
+    exchange:
+      order: exchange.order
+    queue:
+      order: queue.order
+    routing:
+      key: queue.order
