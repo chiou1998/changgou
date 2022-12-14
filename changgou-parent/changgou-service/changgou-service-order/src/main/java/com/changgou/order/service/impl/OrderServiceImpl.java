@@ -10,6 +10,7 @@ import com.changgou.order.pojo.Order;
 import com.changgou.order.pojo.OrderItem;
 import com.changgou.order.service.OrderService;
 import com.changgou.user.feign.UserFeign;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
@@ -45,6 +46,7 @@ public class OrderServiceImpl extends CoreServiceImpl<Order> implements OrderSer
     }
     @Transactional(rollbackFor = Exception.class)
     @Override
+    @GlobalTransactional
     public void add(Order order) {
         String orderId = idWorker.nextId()+ "";
         order.setId(orderId);

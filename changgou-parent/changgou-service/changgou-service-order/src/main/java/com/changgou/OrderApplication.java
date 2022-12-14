@@ -1,6 +1,8 @@
 package com.changgou;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import com.changgou.entity.IdWorker;
+import io.seata.rm.datasource.DataSourceProxy;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
@@ -8,11 +10,15 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
 import org.springframework.core.env.Environment;
 import tk.mybatis.spring.annotation.MapperScan;
+
+import javax.sql.DataSource;
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -47,5 +53,17 @@ public class OrderApplication {
     @Bean
     public Binding createBinding(){
         return BindingBuilder.bind(queueOrder()).to(createExchange()).with(environment.getProperty("mq.pay.routing.key"));
+    }
+    @Bean
+    @ConfigurationProperties(prefix = "spring.datasource")
+    public DataSource dataSource() {
+        DruidDataSource druidDataSource = new DruidDataSource();
+        return druidDataSource;
+    }
+
+    @Primary
+    @Bean("dataSourceProxy")
+    public DataSourceProxy dataSourceProxy(DataSource dataSource) {
+        return new DataSourceProxy(dataSource);
     }
 }

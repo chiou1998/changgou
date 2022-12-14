@@ -10,25 +10,27 @@
         <module name="changgou-core-service" />
         <module name="springboot-thymeleaf" />
         <module name="changgou-user-oauth" />
-        <module name="changgou-web-search" />
-        <module name="changgou-core-controller" />
         <module name="changgou-service-search" />
-        <module name="changgou-service-order" />
         <module name="changgou-servic-user-api" />
         <module name="changgou-common" />
         <module name="changgou-service-file" />
-        <module name="changgou-service-goods" />
         <module name="changgou-service-goods-api" />
+        <module name="changgou-service-seckill-api" />
         <module name="changgou-service-user" />
         <module name="changgou-service-canal" />
-        <module name="changgou-nacos" />
         <module name="changgou-service-pay" />
-        <module name="changgou-common-db" />
         <module name="code-template" />
         <module name="changou-service-search-api" />
-        <module name="changgou-web-item" />
         <module name="changgou-gateway-web" />
         <module name="changgou-service-order-api" />
+        <module name="changgou-web-search" />
+        <module name="changgou-core-controller" />
+        <module name="changgou-service-order" />
+        <module name="changgou-service-goods" />
+        <module name="changgou-nacos" />
+        <module name="changgou-common-db" />
+        <module name="changgou-service-seckill" />
+        <module name="changgou-web-item" />
       </profile>
     </annotationProcessing>
   </component>
@@ -50,6 +52,8 @@
       <module name="changgou-service-order-api" options="-parameters" />
       <module name="changgou-service-pay" options="-parameters" />
       <module name="changgou-service-search" options="-parameters" />
+      <module name="changgou-service-seckill" options="-parameters" />
+      <module name="changgou-service-seckill-api" options="-parameters" />
       <module name="changgou-service-user" options="-parameters" />
       <module name="changgou-user-oauth" options="-parameters" />
       <module name="changgou-web-item" options="-parameters" />

@@ -19,6 +19,9 @@ spring:
   cloud:
     nacos:
       server-addr: 192.168.254.1:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
 feign:
   hystrix:
     enabled: true

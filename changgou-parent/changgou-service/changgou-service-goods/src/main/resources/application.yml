@@ -6,6 +6,9 @@ spring:
   cloud:
     nacos:
       server-addr: 192.168.2.13:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url:  jdbc:mysql://127.0.0.1:3306/changgou?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC

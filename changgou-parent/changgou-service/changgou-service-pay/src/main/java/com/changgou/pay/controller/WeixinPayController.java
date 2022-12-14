@@ -11,16 +11,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-
-
 
 @RestController
 @RequestMapping("/weixin/pay")
@@ -81,8 +76,7 @@ public class WeixinPayController {
             Map<String, String> map = WXPayUtil.xmlToMap(result);
             //将消息发送给RabbitMQ
             rabbitTemplate.convertAndSend(exchange,routing, JSON.toJSONString(map));
-
-
+            
             //响应数据设置
             Map respMap = new HashMap();
             respMap.put("return_code","SUCCESS");
