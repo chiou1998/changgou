@@ -20,13 +20,14 @@ public class MultiThreadingCreateOrder {
     private SeckillOrderMapper seckillOrderMapper;
 
     @Autowired
-    private IdWorker idWorker;
-    @Autowired
     private RedisTemplate redisTemplate;
+
     @Autowired
     private SeckillGoodsMapper seckillGoodsMapper;
+
     @Autowired
-    private MultiThreadingCreateOrder multiThreadingCreateOrder;
+    private IdWorker idWorker;
+
     @Async
     public void createOrder(){
         System.out.println(Thread.currentThread().getName()+"开始");
@@ -42,8 +43,9 @@ public class MultiThreadingCreateOrder {
             String username = seckillStatus.getUsername();
 
         SeckillGoods o = (SeckillGoods) redisTemplate.boundHashOps(SystemConstants.SEC_KILL_GOODS_PREFIX + time).get(id);
-        o.setStockCount(o.getStockCount()-1);
-        redisTemplate.boundHashOps(SystemConstants.SEC_KILL_GOODS_PREFIX+time).put(id,o);
+//        o.setStockCount(o.getStockCount()-1);
+//        redisTemplate.boundHashOps(SystemConstants.SEC_KILL_GOODS_PREFIX+time).put(id,o);
+
         if (o.getStockCount()<=0) {
             seckillGoodsMapper.updateByPrimaryKeySelective(o);
             redisTemplate.boundHashOps(SystemConstants.SEC_KILL_GOODS_PREFIX+time).delete(id);
@@ -56,6 +58,11 @@ public class MultiThreadingCreateOrder {
         seckillOrder.setCreateTime(new Date());
         seckillOrder.setStatus("0");
         redisTemplate.boundHashOps(SystemConstants.SEC_KILL_ORDER_KEY).put(username,seckillOrder);
+        seckillStatus.setStatus(2);
+        seckillStatus.setMoney(Float.valueOf(o.getCostPrice()));
+        seckillStatus.setOrderId(seckillOrder.getId()); //设置订单的id
+
+        redisTemplate.boundHashOps(SystemConstants.SEC_KILL_USER_STATUS_KEY).put(username,seckillStatus);
         System.out.println(Thread.currentThread().getName()+"结束");
     }
 }}

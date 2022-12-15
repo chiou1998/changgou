@@ -8,264 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45af2ec2-7522-4b38-aa5a-0df9e97284d8" name="变更" comment="changgou">
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-seckill-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-seckill-api/target/classes/com/changgou/seckill/pojo/SeckillStatus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-servic-user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-servic-user-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-order-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-order-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-album/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-album/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/java/com/changgou/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/java/com/changgou/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/java/com/changgou/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/java/com/changgou/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/com/changgou/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/com/changgou/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/com/changgou/order/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-order/target/classes/com/changgou/order/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-pay/src/main/java/com/changgou/pay/controller/WeixinPayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-pay/src/main/java/com/changgou/pay/controller/WeixinPayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/src/main/java/com/changgou/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/src/main/java/com/changgou/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ActivityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AdController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AddressController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AdminController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AdminRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AlbumController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/AreasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/BrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/CategoryBrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/CategoryReportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/CitiesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ContentCategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ContentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/FreightTemplateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/MenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/OauthClientDetailsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/OrderConfigController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/OrderItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/OrderLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ParaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/PrefController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/PreferentialController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ProvincesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ReturnCauseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ReturnOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/ReturnOrderItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/RoleMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/SeckillGoodsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/SeckillOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/SkuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/SpecController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/SpuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/StockBackController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/TemplateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/UndoLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ActivityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AdMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AdminRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AlbumMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/AreasMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/CategoryBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/CategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/CategoryReportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/CitiesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ContentCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ContentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/FreightTemplateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/MenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/OauthClientDetailsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/OrderConfigMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/OrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/OrderLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/OrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ParaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/PrefMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/PreferentialMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ProvincesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ReturnCauseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ReturnOrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/ReturnOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/RoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/RoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/SeckillGoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/SeckillOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/SkuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/SpecMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/SpuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/StockBackMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/TemplateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/UndoLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ActivityFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AdFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AddressFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AdminFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AdminRoleFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AlbumFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/AreasFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/BrandFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/CategoryBrandFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/CategoryFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/CategoryReportFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/CitiesFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ContentCategoryFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ContentFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/FreightTemplateFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/MenuFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/OauthClientDetailsFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/OrderConfigFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/OrderFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/OrderItemFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/OrderLogFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ParaFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/PrefFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/PreferentialFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ProvincesFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ReturnCauseFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ReturnOrderFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/ReturnOrderItemFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/RoleFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/RoleMenuFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/SeckillGoodsFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/SeckillOrderFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/SkuFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/SpecFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/SpuFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/StockBackFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/TemplateFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/UndoLogFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/feign/UserFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Ad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/AdminRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Album.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Areas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/CategoryBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/CategoryReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Cities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Content.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/ContentCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/FreightTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/OauthClientDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/OrderConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/OrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/OrderLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Para.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Pref.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Preferential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Provinces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/ReturnCause.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/ReturnOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/ReturnOrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/RoleMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/SeckillGoods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/SeckillOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Sku.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Spec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Spu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/StockBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/Template.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/UndoLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ActivityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AdService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AdminRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AdminService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AlbumService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/AreasService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/BrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/CategoryBrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/CategoryReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/CitiesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ContentCategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ContentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/FreightTemplateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/MenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/OauthClientDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/OrderConfigService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/OrderItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/OrderLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ParaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/PrefService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/PreferentialService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ProvincesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ReturnCauseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ReturnOrderItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/ReturnOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/RoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/SeckillGoodsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/SeckillOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/SkuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/SpecService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/SpuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/StockBackService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/TemplateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/UndoLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ActivityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AdServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AddressServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AdminRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AdminServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AlbumServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/AreasServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/BrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/CategoryBrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/CategoryReportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/CategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/CitiesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ContentCategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ContentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/FreightTemplateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/MenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/OauthClientDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/OrderConfigServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/OrderItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/OrderLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/OrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ParaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/PrefServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/PreferentialServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ProvincesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ReturnCauseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ReturnOrderItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/ReturnOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/RoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/RoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/SeckillGoodsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/SeckillOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/SkuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/SpecServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/SpuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/StockBackServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/TemplateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/UndoLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/java/com/changgou/order/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-template/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-template/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-template/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/controller/SeckillOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/controller/SeckillOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/service/SeckillOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/service/SeckillOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/service/impl/SeckillOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/service/impl/SeckillOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/task/MultiThreadingCreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/src/main/java/com/changgou/seckill/task/MultiThreadingCreateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/controller/SeckillOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/controller/SeckillOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/service/SeckillOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/service/SeckillOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/service/impl/SeckillOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/service/impl/SeckillOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/task/MultiThreadingCreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-seckill/target/classes/com/changgou/seckill/task/MultiThreadingCreateOrder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +265,8 @@
       <workItem from="1670514611562" duration="8984000" />
       <workItem from="1670560685913" duration="50354000" />
       <workItem from="1670892701351" duration="39278000" />
-      <workItem from="1671019473787" duration="662000" />
+      <workItem from="1671019473787" duration="2453000" />
+      <workItem from="1671084486692" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="changgou">
       <created>1670042846882</created>
@@ -598,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670660615238</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changgou">
+      <created>1671021713546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671021713546</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

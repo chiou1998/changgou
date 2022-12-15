@@ -2,6 +2,8 @@ package com.changgou.seckill.service;
 
 import com.changgou.core.service.CoreService;
 import com.changgou.seckill.pojo.SeckillOrder;
+import com.changgou.seckill.pojo.SeckillStatus;
+
 /****
  * @Author:admin
  * @Description:SeckillOrder业务层接口
@@ -10,4 +12,6 @@ import com.changgou.seckill.pojo.SeckillOrder;
 public interface SeckillOrderService extends CoreService<SeckillOrder> {
 
     boolean add(Long id, String time, String username);
+
+    SeckillStatus queryStatus(String username);
 }
